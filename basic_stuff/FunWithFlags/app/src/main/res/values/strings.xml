@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Fun With Flags</string>
+    <string name="country">Country</string>
+    <string name="score_title">Your score is</string>
+    <string name="task_description">Name the country that each flag belongs to!</string>
+    <string name="flag_image">flag image</string>
+    <string name="check">CHECK</string>
+    <string name="reset">RESET</string>
+</resources>
