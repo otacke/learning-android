@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">FootballCounter</string>
+    <string name="reset">Reset</string>
+    <string name="points_TD">+ 6 points\n(TD)</string>
+    <string name="points_FG">+ 3 points\n(FG, FCK)</string>
+    <string name="points_SAFETY">+ 2 points\n(PAT, Safety)</string>
+    <string name="points_PAT">+ 1 point\n(PAT)</string>
+    <string name="team_a">Team A</string>
+    <string name="team_b">Team B</string>
 </resources>
