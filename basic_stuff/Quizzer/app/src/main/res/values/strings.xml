@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Quizzer</string>
+    <string name="question_1">Question 1</string>
+    <string name="task_1">A simple one for starters: What is 1 + 1?</string>
+    <string name="question_2">Question 2</string>
+    <string name="task_2">Which of the following options have been given for the previous question, too?</string>
+    <string name="question_3">Question 3</string>
+    <string name="task_3">What is the name of this app?</string>
+    <string name="question_4">Question 4</string>
+    <string name="task_4">Final question: Is this app OK for passing?</string>
+    <string name="well_ummm_no_sorry">Well, ummm, no. Sorry!</string>
+    <string name="yup_well_done">Yup! Well done!</string>
+    <string name="_1">1</string>
+    <string name="_3">3</string>
+    <string name="_2">2</string>
+    <string name="_0">0</string>
+    <string name="hint_look_at_the_top">Hint: Look at the top!</string>
+    <string name="check">CHECK</string>
+    <string name="please_press_check_to_get_your_results">Please press CHECK to get your results.</string>
+    <string name="your_results">Your Results</string>
+</resources>
