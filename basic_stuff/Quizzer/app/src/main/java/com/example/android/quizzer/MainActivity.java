@@ -7,6 +7,7 @@ import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -61,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Question 3
         String q3o1 = ((EditText) findViewById(R.id.Question3_Option1)).getText().toString();
-        if (q3o1.equals("Quizzer")) {
+        if (q3o1.equals("Quizzer")) { // we wanna be case sensitive here
             score++;
         }
 
@@ -72,6 +73,8 @@ public class MainActivity extends AppCompatActivity {
         }
 
         // output results
-        ((TextView) findViewById(R.id.Results)).setText("Your score is " + score + "/" + QUESTION_MAX);
+        CharSequence textScore = "Your score is " + score + "/" + QUESTION_MAX;
+        ((TextView) findViewById(R.id.Results)).setText(textScore);
+        Toast.makeText(getApplicationContext(), textScore, Toast.LENGTH_SHORT).show();
     }
 }
